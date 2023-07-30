@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,500;1,600;1,700;1,800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+img {
+  width: 100px;
+}
+
+section {
+  margin-top: 50px;
+}
+
+.first-section {
+  text-align: center;
+}
+.first-section small {
+  font-size: 24px;
+  font-weight: 100;
+}
+
+.first-section h3 {
+  font-size: 24px;
+}
+
+.first-section p {
+  font-size: 20px;
+  color: hsl(229, 6%, 66%);
+  margin: 18px auto;
+  max-width: 400px;
+}
+.four-cards {
+  margin: 70px 0;
+  position: relative;
+}
+.four-cards .card,
+.four-cards .cardes,
+.four-cards .cardess,
+.four-cards .cardesss {
+  border: 0 solid;
+  border-top: 5px solid hsl(180, 62%, 55%);
+  border-radius: 10px;
+  max-width: 300px;
+  height: 210px;
+  margin: 30px auto;
+  padding: 20px;
+  position: relative;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.four-cards .card h3,
+.four-cards .cardes h3,
+.four-cards .cardess h3,
+.four-cards .cardesss h3 {
+  margin: 10px 0;
+  font-size: 24px;
+  font-weight: 600;
+  color: hsl(234, 12%, 34%);
+}
+
+.four-cards .card p,
+.four-cards .cardes p,
+.four-cards .cardess p,
+.four-cards .cardesss p {
+  color: hsl(229, 6%, 66%);
+}
+.four-cards .card img,
+.four-cards .cardes img,
+.four-cards .cardess img,
+.four-cards .cardesss img {
+  position: absolute;
+  right: 26px;
+  width: 85px;
+  bottom: 31px;
+}
+.four-cards .team {
+  border-top: 5px solid hsl(0, 78%, 62%);
+}
+
+.four-cards .karma {
+  border-top: 5px solid hsl(34, 97%, 64%);
+}
+
+.four-cards .cal {
+  border-top: 5px solid hsl(212, 86%, 64%);
+}
+
+@media (min-width: 900px) {
+  .four-cards {
+    position: relative;
+  }
+  .card {
+    right: 352px;
+    top: 107px;
+  }
+  .cardes {
+    bottom: 307px;
+  }
+  .cardess {
+    bottom: 317px;
+  }
+  .cardesss {
+    bottom: 748px;
+    left: 353px;
+  }
+}
