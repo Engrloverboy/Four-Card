@@ -91,9 +91,11 @@ section {
   border-top: 5px solid hsl(212, 86%, 64%);
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1100px) {
   .four-cards {
     position: relative;
+    margin-bottom: 20px;
+    height: 515px;
   }
   .card {
     right: 352px;
